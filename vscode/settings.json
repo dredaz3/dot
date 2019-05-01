@@ -1,0 +1,68 @@
+{
+    // Font
+    "editor.fontSize": 15,
+    // Format
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    // Editor UI
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80,
+        100,
+        120
+    ],
+    // Explorer
+    "explorer.confirmDelete": false,
+    // Files
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+    },
+    "files.associations": {
+        // Git Commit Message
+        ".gittemplate": "git-commit",
+        // JSON with Comments
+        ".markdownlintrc": "jsonc",
+        // Shell Script
+        "Brewfile": "shellscript",
+        "zsh*": "shellscript",
+        // VimL
+        "vimrc": "viml",
+    },
+    // Git
+    "git.autofetch": true,
+    // Terminal
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    // Theme
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    // Workbench
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.startupEditor": "none",
+    // To-do tree
+    "todo-tree.tags": [
+        "TODO",
+        "FIXME",
+        "HACK"
+    ],
+    "todo-tree.expanded": true,
+    "todo-tree.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {},
+        "HACK": {}
+    },
+    // Python
+    "python.formatting.provider": "black",
+}

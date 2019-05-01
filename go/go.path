@@ -1,0 +1,4 @@
+# PATHs
+GO="/usr/local/opt/go/libexec/bin"
+
+export PATH="$GO:$PATH"

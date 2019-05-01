@@ -1,0 +1,16 @@
+aaron-bond.better-comments
+budparr.language-hugo-vscode
+bungcip.better-toml
+CoenraadS.bracket-pair-colorizer
+DavidAnson.vscode-markdownlint
+eamodio.gitlens
+EditorConfig.EditorConfig
+Equinusocio.vsc-material-theme
+fallenwood.vimL
+formulahendry.code-runner
+Gruntfuggly.todo-tree
+mrorz.language-gettext
+ms-python.python
+ms-vscode.Go
+ms-vsliveshare.vsliveshare
+rogalmic.bash-debug

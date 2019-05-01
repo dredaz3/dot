@@ -1,0 +1,34 @@
+############################### <HEADER> ###############################
+# <type> must be one of the following:
+# fix : Fix an issue e.g. bug, code typo, accident, misstatement
+# feat: < Add | Delete | Update > a feature
+# test: < Add | Delete | Update > a test
+# docs: < Add | Delete | Update > documentation
+# chor: < Update | Downgrade > {pkg} , <Run> {task}
+# redo: Refactor e.g. a change neither fixes a bug nor adds a feature
+# tidy: Style e.g. indent, space, layout, text typo
+#----------------------------------------------------------------------#
+# <type>: (scope) If applied, this commit will... <subject>
+# |<---   Using a Maximum Of 50 Characters   --->|
+
+
+################################ <BODY> ################################
+# <type> may be some/all of the following:
+# why: Why the changes were made (not the what)
+# pre: The way they worked before
+# now: The way they work now
+# alt: The alternative solutions should be considered
+# oth: Other notes
+#----------------------------------------------------------------------#
+# <type>: <value/values>. or <BREAKING CHANGE:> details.
+# |<---    Try To Limit Each Line to a Maximum Of 72 Characters    --->|
+
+
+############################### <FOOTER> ###############################
+# <type> must be one of the following:
+# iss : Pull request: -> #123 or Issue: -> < close | reopen > #124
+# ref : Links to commits. ref: a5c3785
+# see : Links external resources, articles or trello tickets
+#----------------------------------------------------------------------#
+# <type>: <value/values>
+# |<---    Try To Limit Each Line to a Maximum Of 72 Characters    --->|

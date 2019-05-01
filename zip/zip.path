@@ -1,0 +1,5 @@
+# PATHs
+ZIP="/usr/local/opt/zip/bin"
+UNZIP="/usr/local/opt/unzip/bin"
+
+export PATH="$ZIP:$UNZIP:$PATH"

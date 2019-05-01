@@ -1,0 +1,4 @@
+# FPATHs
+ZSH_COMPLETIONS="/usr/local/share/zsh-completions"
+
+export FPATH="$ZSH_COMPLETIONS:$FPATH"
