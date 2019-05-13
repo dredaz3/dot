@@ -15,8 +15,9 @@ project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 - Use consistent naming convention for aliases
 - Update 'erdaltsksn/blank' to v0.2.0
+- Rename `gll` alias to `gl`
 ### Removed
-- for now removed features
+- The `gl` alias
 ### Deprecated
 - for soon-to-be removed features
 ### Security

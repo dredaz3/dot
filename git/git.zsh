@@ -35,17 +35,8 @@ gac() {
 # Reset current HEAD to the specified state
 alias gr="git reset && gs"
 
-# Show commit logs with a text-based graphic in oneline optionally by limiting
-gl() {
-    if [[ $@ == -* ]] ; then
-        git log --oneline --decorate --all --graph
-    else
-        git log --oneline --decorate --all --graph --grep="$@"
-    fi
-}
-
 # Show commit logs with author name and date
-alias gll="git log --decorate --all --graph --format=format:'%C(bold yellow)%h%C(reset) %C(bold cyan)%s%C(reset)%C(auto)%d%C(reset)%n        %C(dim white)%aD%C(reset) %C(magenta)(%an)%C(reset)'"
+alias gl="git log --decorate --all --graph --format=format:'%C(bold yellow)%h%C(reset) %C(bold cyan)%s%C(reset)%C(auto)%d%C(reset)%n        %C(dim white)%aD%C(reset) %C(magenta)(%an)%C(reset)'"
 
 # Update remote by push with all branches and tags
 alias gp="git push --all && git push --tags"
