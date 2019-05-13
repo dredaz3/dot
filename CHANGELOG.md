@@ -11,7 +11,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - The `brewclean` alias which use the old folder structure
 - Broken build: no-inline-html Inline HTML [Element: -]
 ### Added
-- for new features
+- Material Theme file icon theme by equinusocio
 ### Changed
 - Use consistent naming convention for aliases
 - Update 'erdaltsksn/blank' to v0.2.0

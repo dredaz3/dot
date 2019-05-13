@@ -6,6 +6,7 @@ DavidAnson.vscode-markdownlint
 eamodio.gitlens
 EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
+equinusocio.vsc-material-theme-icons
 fallenwood.vimL
 formulahendry.code-runner
 Gruntfuggly.todo-tree
