@@ -8,10 +8,12 @@ project adheres to [Semantic Versioning](https://semver.org/).
 <!-- markdownlint-disable MD022 MD032 -->
 ## [Unreleased]
 ### Fixed
+- The `brewclean` alias which use the old folder structure
 - Broken build: no-inline-html Inline HTML [Element: -]
 ### Added
 - for new features
 ### Changed
+- Use consistent naming convention for aliases
 - Update 'erdaltsksn/blank' to v0.2.0
 ### Removed
 - for now removed features
