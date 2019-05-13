@@ -8,7 +8,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 <!-- markdownlint-disable MD022 MD032 -->
 ## [Unreleased]
 ### Fixed
-- for any bug fixes
+- Broken build: no-inline-html Inline HTML [Element: -]
 ### Added
 - for new features
 ### Changed

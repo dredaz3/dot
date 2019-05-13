@@ -15,7 +15,7 @@ Ubuntu Server
 - Material theme for all possible environments (zsh, terminal, vscode, etc.)
 - .dotsecret folder for all custom and private settings
 - .gitconfig, .gitignore, and git commit template
-- .hushlogin, Brewfile, and Turkish <-> English dictionaries for Dictionary.app
+- .hushlogin, Brewfile, and Turkish <> English dictionaries for Dictionary.app
 - .nanorc, .vimrc, gitcommit.vim
 - Visual Studio Code settings, keybindings, and extensions
 - .zshrc, `$PATH` ready, topic's zsh files which contain aliases, functions and
