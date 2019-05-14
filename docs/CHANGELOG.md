@@ -5,7 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
-<!-- markdownlint-disable MD022 MD032 -->
 ## [Unreleased]
 ### Fixed
 - The `brewclean` alias which use the old folder structure
@@ -14,18 +13,17 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Material Theme file icon theme by equinusocio
 ### Changed
 - Use consistent naming convention for aliases
-- Update 'erdaltsksn/blank' to v0.2.0
 - Rename `gll` alias to `gl`
+- Update 'erdaltsksn/blank' to v1.0.0
 ### Removed
 - The `gl` alias
 ### Deprecated
-- for soon-to-be removed features
+- for_soon_to_be_removed_features
 ### Security
-- in case of vulnerabilities
+- in_case_of_vulnerabilities
 
 ## [v0.1.0] - 2019-05-01
 - Initial Release
-<!-- markdownlint-enable -->
 
 [Unreleased]: https://github.com/erdaltsksn/dotfiles/compare/v0.1.0...HEAD
 [v0.1.0]: https://github.com/erdaltsksn/dotfiles/releases/tag/v0.1.0

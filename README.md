@@ -1,7 +1,5 @@
 # ERDAL'S DOTFILES
 
-[![Build Status](https://travis-ci.com/erdaltsksn/dotfiles.svg?branch=master)](https://travis-ci.com/erdaltsksn/dotfiles)
-
 ## About dotfiles (.files)
 
 Dotfiles are how you personalize your system. These are mine for macOS and
@@ -66,17 +64,18 @@ You should definitely check every subdirectory to learn more about this project.
 
 ## History
 
-See [CHANGELOG](CHANGELOG.md) to learn how this project evolved during the time.
+See [CHANGELOG](docs/CHANGELOG.md) to learn how this project evolved during the
+time.
 
 ## Contributing
 
 If you want to contribute to this project and make it better, your help is very
-welcome. See [CONTRIBUTING](CONTRIBUTING.md) for more information.
+welcome. See [CONTRIBUTING](docs/CONTRIBUTING.md) for more information.
 
 ## Code of Conduct
 
-This project adheres to [Code of Conduct](CODE_OF_CONDUCT.md). By participating,
-you are expected to uphold this code.
+This project adheres to [Code of Conduct](docs/CODE_OF_CONDUCT.md). By
+participating, you are expected to uphold this code.
 
 ## Disclaimer
 
@@ -88,4 +87,6 @@ connection with the use of this software.
 
 ## Feedback
 
-Suggestions / Improvements [WELCOME](https://github.com/erdaltsksn/dotfiles/issues)!
+Suggestions / Improvements [WELCOME]!
+
+[WELCOME]: https://github.com/erdaltsksn/dotfiles/issues
