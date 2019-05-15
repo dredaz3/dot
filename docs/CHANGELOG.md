@@ -6,24 +6,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
 ### Fixed
+
 - The `brewclean` alias which use the old folder structure
 - Broken build: no-inline-html Inline HTML [Element: -]
+
 ### Added
+
 - Material Theme file icon theme by equinusocio
+
 ### Changed
+
 - Use consistent naming convention for aliases
 - Rename `gll` alias to `gl`
-- Update 'erdaltsksn/blank' to v1.0.0
+- Update 'erdaltsksn/blank' to v1.1.0
+
 ### Removed
+
 - The `gl` alias
 - The vscode's file associations
+
 ### Deprecated
+
 - for_soon_to_be_removed_features
+
 ### Security
+
 - in_case_of_vulnerabilities
 
 ## [v0.1.0] - 2019-05-01
+
 - Initial Release
 
 [Unreleased]: https://github.com/erdaltsksn/dotfiles/compare/v0.1.0...HEAD
