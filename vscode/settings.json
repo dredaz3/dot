@@ -25,17 +25,6 @@
         "**/.DS_Store": true,
         "**/__pycache__": true,
     },
-    "files.associations": {
-        // Git Commit Message
-        ".gittemplate": "git-commit",
-        // JSON with Comments
-        ".markdownlintrc": "jsonc",
-        // Shell Script
-        "Brewfile": "shellscript",
-        "zsh*": "shellscript",
-        // VimL
-        "vimrc": "viml",
-    },
     // Git
     "git.autofetch": true,
     // Terminal
