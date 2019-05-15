@@ -17,6 +17,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Update 'erdaltsksn/blank' to v1.0.0
 ### Removed
 - The `gl` alias
+- The vscode's file associations
 ### Deprecated
 - for_soon_to_be_removed_features
 ### Security
