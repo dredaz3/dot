@@ -9,7 +9,6 @@ Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 fallenwood.vimL
 formulahendry.code-runner
-Gruntfuggly.todo-tree
 mrorz.language-gettext
 ms-python.python
 ms-vscode.Go

@@ -36,22 +36,6 @@
     // Workbench
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "none",
-    // To-do tree
-    "todo-tree.tags": [
-        "TODO",
-        "FIXME",
-        "HACK"
-    ],
-    "todo-tree.expanded": true,
-    "todo-tree.defaultHighlight": {
-        "foreground": "green",
-        "type": "none"
-    },
-    "todo-tree.customHighlight": {
-        "TODO": {},
-        "FIXME": {},
-        "HACK": {}
-    },
     // Python
     "python.formatting.provider": "black",
 }
