@@ -9,7 +9,6 @@ cd ~/.dotfiles && git pull && cd -
 # Recreate symbolic links
 ln -sf ~/.dotfiles/git/.gitconfig ~/
 ln -sf ~/.dotfiles/gnupg/* ~/.gnupg
-ln -sf ~/.dotfiles/nano/.nanorc ~/
 ln -sf ~/.dotfiles/node/.npmrc ~/
 ln -sf ~/.dotfiles/vim/* ~/.vim
 ln -sf ~/.dotfiles/zsh/.zshrc ~/
