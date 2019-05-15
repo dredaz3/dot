@@ -121,13 +121,13 @@ cask "transmission"
 cask "visual-studio-code"
 # TablePlus is an modern native SQL client and a database administration tool
 cask "tableplus"
-# FUSE extends macOS's native file system via third-party file systems.
+# FUSE extends macOS's native file system via third-party file systems
 cask "osxfuse"
 # Transmit is a file transfer client program for macOS. Developed by Panic
 cask "transmit"
 # Google Chrome is a freeware web browser developed by Google
 cask "google-chrome"
-# Postman is the only complete API development environment, for API developers,
+# Postman is the only complete API development environment for API developers
 cask "postman"
 # ImageOptim makes images load faster
 cask "imageoptim"
