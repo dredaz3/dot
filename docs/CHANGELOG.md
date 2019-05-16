@@ -32,6 +32,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Nano text editor
 - To-do tree vscode extension
 - `cp-users` alias
+- The 'pre-commit' package
 
 ### Deprecated
 
