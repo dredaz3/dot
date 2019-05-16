@@ -20,6 +20,9 @@ set clipboard=unnamed
 " Display imcomplete commands
 set showcmd
 
+" Enables a menu at the bottom of the vim/gvim window.
+set wildmenu
+
 " Always shot the statusline
 set laststatus=2
 

@@ -15,6 +15,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 
 - Material Theme file icon theme by equinusocio
+- Bottom menu for vim command mode
 
 ### Changed
 
