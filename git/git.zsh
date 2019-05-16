@@ -28,7 +28,7 @@ gd() {
 alias gc="git commit -v"
 
 # Reset current HEAD to the specified state
-alias gr="git reset && gs"
+alias gr="git reset"
 
 # Show commit logs with author name and date
 alias gl="git log --decorate --all --graph --format=format:'%C(bold yellow)%h%C(reset) %C(bold cyan)%s%C(reset)%C(auto)%d%C(reset)%n        %C(dim white)%aD%C(reset) %C(magenta)(%an)%C(reset)'"
