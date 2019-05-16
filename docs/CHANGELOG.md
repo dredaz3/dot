@@ -21,6 +21,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Use consistent naming convention for aliases
 - Rename `gll` alias to `gl`
 - Update 'erdaltsksn/blank' to v1.1.0
+- Rename zip as archiving and add gnu-tar
 
 ### Removed
 
