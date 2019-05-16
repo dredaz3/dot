@@ -31,5 +31,3 @@ alias dnsFlush='dscacheutil -flushcache'
 # Print IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-# List all human users in our system
-alias cp-users="cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1"
