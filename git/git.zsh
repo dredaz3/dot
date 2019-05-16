@@ -27,11 +27,6 @@ gd() {
 # Record changes to the repository with unified diff at the bottom
 alias gc="git commit -v"
 
-# Combine `ga` and `gc`
-gac() {
-    ga $@ && gc
-}
-
 # Reset current HEAD to the specified state
 alias gr="git reset && gs"
 
