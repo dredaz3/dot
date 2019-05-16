@@ -128,3 +128,18 @@ cask "google-chrome"
 cask "postman"
 # ImageOptim makes images load faster
 cask "imageoptim"
+
+#------------------------------------------------------------------------------#
+
+# Pages is a word processor developed
+mas "com.apple.iWork.Pages", id: 409201541
+# Numbers is a spreadsheet application developed
+mas "com.apple.iWork.Numbers", id: 409203825
+# Keynote is a presentation software application developed
+mas "com.apple.iWork.Keynote", id: 409183694
+
+# iMovie is a video editing software application sold
+mas "com.apple.iMovieApp", id: 408981434
+
+# Xcode is an integrated development environment for macOS developed
+mas "com.apple.dt.Xcode", id: 497799835
