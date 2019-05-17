@@ -1,4 +1,5 @@
 # PATHs
 GO="/usr/local/opt/go/libexec/bin"
+GOBIN="$HOME/go/bin"
 
-export PATH="$GO:$PATH"
+export PATH="$GO:$GOBIN:$PATH"

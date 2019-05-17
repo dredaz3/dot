@@ -17,6 +17,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Material Theme file icon theme by equinusocio
 - Bottom menu for vim command mode
 - 'App Store' applications to Brewfile
+- A path entry for `go` app's bin folder
 
 ### Changed
 
