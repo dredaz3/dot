@@ -79,6 +79,9 @@ brew "go"
 # Configurable static site generator
 brew "hugo"
 
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+
 # Stylesheet Preprocessor
 tap "dart-lang/dart"
 tap "sass/sass"

@@ -1,0 +1,4 @@
+# PATHs
+RUBY="/usr/local/opt/ruby/bin"
+
+export PATH="$RUBY:$PATH"

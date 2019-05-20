@@ -30,7 +30,6 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 - The `gl` alias
 - The vscode's file associations
-- The ruby stack
 - Nano text editor
 - To-do tree vscode extension
 - `cp-users` alias
