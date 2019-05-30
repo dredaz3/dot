@@ -18,6 +18,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Bottom menu for vim command mode
 - 'App Store' applications to Brewfile
 - A path entry for `go` app's bin folder
+- User's bin folder to `$PATH`
 
 ### Changed
 
