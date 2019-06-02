@@ -19,6 +19,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - 'App Store' applications to Brewfile
 - A path entry for `go` app's bin folder
 - User's bin folder to `$PATH`
+- Github label generator cli app
 
 ### Changed
 

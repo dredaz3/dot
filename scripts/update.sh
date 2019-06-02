@@ -7,6 +7,7 @@ set -e
 cd ~/.dotfiles && git pull && cd -
 
 # Recreate symbolic links
+ln -sf ~/.dotfiles/bin/ ~/
 ln -sf ~/.dotfiles/git/.gitconfig ~/
 ln -sf ~/.dotfiles/gnupg/* ~/.gnupg
 ln -sf ~/.dotfiles/node/.npmrc ~/
