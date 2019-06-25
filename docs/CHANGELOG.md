@@ -36,6 +36,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - To-do tree vscode extension
 - `cp-users` alias
 - The `gac` alias
+- Ubuntu Server support
 
 ### Deprecated
 

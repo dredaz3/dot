@@ -2,14 +2,12 @@
 
 ## About dotfiles (.files)
 
-Dotfiles are how you personalize your system. These are mine for macOS and
-Ubuntu Server
+Dotfiles are how you personalize your system. These are mine for macOS.
 
 ![Screenshot](/media/screenshot.png)
 
 ## Features
 
-- MacOS and Ubuntu Server support
 - Material theme for all possible environments (zsh, terminal, vscode, etc.)
 - .dotsecret folder for all custom and private settings
 - .gitconfig, .gitignore, and git commit template
@@ -24,13 +22,7 @@ Ubuntu Server
 
 ### Prerequisites
 
-Disclaimer: This project works best on macOS.
-
-- Unix-like operating system (macOS or Linux)
-- curl
-- git
-
-NOTE: You already have all prerequisites if you use macOS or Ubuntu Server.
+- macOS
 
 ### Basic Installation
 
