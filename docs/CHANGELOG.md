@@ -20,6 +20,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - A path entry for `go` app's bin folder
 - User's bin folder to `$PATH`
 - Github label generator cli app
+- Global npm packages
 
 ### Changed
 

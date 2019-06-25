@@ -12,7 +12,7 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 - .dotsecret folder for all custom and private settings
 - .gitconfig, .gitignore, and git commit template
 - .hushlogin, Brewfile, and Turkish <> English dictionaries for Dictionary.app
-- .nanorc, .vimrc, gitcommit.vim
+- npm packages, .vimrc, gitcommit.vim
 - Visual Studio Code settings, keybindings, and extensions
 - .zshrc, `$PATH` ready, topic's zsh files which contain aliases, functions and
   etc.
