@@ -20,7 +20,7 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 
 ## Installation
 
-### Prerequisites
+### Requirements
 
 - macOS
 
