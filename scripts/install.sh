@@ -20,20 +20,27 @@ if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 fi
 
-# Change default shell
-echo "$(which zsh)" | sudo tee -a /etc/shells
-chsh -s $(which zsh)
-
-# Create necessary folders and files
-mkdir -p ~/.dotsecret
-mkdir -p ~/.cache/zsh
-mkdir -p ~/.vim
-
 # Clone dotfiles
 git clone https://github.com/erdaltsksn/dotfiles.git ~/.dotfiles
 
 # Bootstrap
 curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/update.sh | bash
+
+# Install Turkish <-> English dictionaries
+cp -r ~/.dotfiles/mac/dictionary/* ~/Library/Dictionaries/
+
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores 1
+defaults write com.apple.desktopservices DSDontWriteUSBStores 1
+
+# Install Material Theme for Terminal.app
+open ~/.dotfiles/mac/terminal/materialshell-electro.terminal
+defaults write com.apple.Terminal "Default Window Settings" materialshell-electro
+defaults write com.apple.Terminal "Startup Window Settings" materialshell-electro
+
+# Change default shell
+echo "$(which zsh)" | sudo tee -a /etc/shells
+chsh -s $(which zsh)
 
 # Set computer name, hostname
 read -p "Would you like to configure hostname now? (y/n) " -n 1
@@ -45,18 +52,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     sudo scutil --set LocalHostName $computer_name
     echo "Computer name is set successfully."
 fi
-
-# Install Material Theme for Terminal.app
-open ~/.dotfiles/mac/terminal/materialshell-electro.terminal
-defaults write com.apple.Terminal "Default Window Settings" materialshell-electro
-defaults write com.apple.Terminal "Startup Window Settings" materialshell-electro
-
-# Install Turkish <-> English dictionaries
-cp -r ~/.dotfiles/mac/dictionary/* ~/Library/Dictionaries/
-
-# Avoid creating .DS_Store files on network or USB volumes
-defaults write com.apple.desktopservices DSDontWriteNetworkStores 1
-defaults write com.apple.desktopservices DSDontWriteUSBStores 1
 
 # Configure SSH
 if [ ! -d "$HOME/.ssh" ]; then
@@ -78,6 +73,9 @@ if [ ! -d "$HOME/.gnupg" ]; then
         echo "Your GPG key is generated successfully."
     fi
 fi
+
+# Create a folder for secrets
+mkdir -p ~/.dotsecret
 
 # Configure GIT
 if [ ! -f "$HOME/.dotsecret/.gitconfig" ]; then
@@ -106,7 +104,3 @@ if [ ! -f "$HOME/.dotsecret/github-token.txt" ]; then
         echo "Github token is configured successfully."
     fi
 fi
-
-# Cleanup
-rm -rf ~/.bash*
-rm -rf ~/.zcompdump*

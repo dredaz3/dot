@@ -10,8 +10,10 @@ cd ~/.dotfiles && git pull && cd -
 ln -sf ~/.dotfiles/bin/ ~/
 ln -sf ~/.dotfiles/git/.gitconfig ~/
 ln -sf ~/.dotfiles/gnupg/* ~/.gnupg
+ln -sf ~/.dotfiles/mac/.hushlogin ~/
 ln -sf ~/.dotfiles/node/.npmrc ~/
-ln -sf ~/.dotfiles/vim/* ~/.vim
+ln -sf ~/.dotfiles/vim/ ~/.vim
+ln -sf ~/.dotfiles/vscode/*.json ~/Library/Application\ Support/Code/User/
 ln -sf ~/.dotfiles/zsh/.zshrc ~/
 ln -sf ~/.dotfiles/zsh/oh-my-zsh/materialshell-electro.zsh-theme ~/.oh-my-zsh/custom/themes/
 
@@ -28,6 +30,6 @@ for i in $(cat ~/.dotfiles/vscode/extensions*); do
     code --install-extension $i
 done
 
-# Recreate mac spesific symbolic links
-ln -sf ~/.dotfiles/mac/.hushlogin ~/
-ln -sf ~/.dotfiles/vscode/*.json ~/Library/Application\ Support/Code/User/
+# Cleanup
+rm -rf ~/.bash*
+rm -rf ~/.zcompdump*

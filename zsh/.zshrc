@@ -28,6 +28,11 @@ export VISUAL=$EDITOR
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'
 
+# Create a cache folder if it isn't exists
+if [ ! -d "$HOME/.cache/zsh" ]; then
+    mkdir -p ~/.cache/zsh
+fi
+
 # Define a custom directory for history
 export HISTFILE=$HOME/.cache/zsh/.zsh_history
 
