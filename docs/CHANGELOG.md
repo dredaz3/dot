@@ -21,6 +21,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - User's bin folder to `$PATH`
 - Github label generator cli app
 - Global npm packages
+- Alias to rerun the last command with `sudo`
 
 ### Changed
 

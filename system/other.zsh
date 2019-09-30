@@ -1,6 +1,9 @@
 # The goal of this file is to make itself obsolete. We should try to put every
 # aliases, function and etc. into relevant module.
 
+# Let's be nice and use please instead of `sudo`
+alias please='sudo $(fc -ln -1)'
+
 # Clear shorthands
 alias c=clear
 alias cls=clear
