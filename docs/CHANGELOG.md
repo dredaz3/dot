@@ -12,6 +12,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - The `brewclean` alias which use the old folder structure
 - Broken build: no-inline-html Inline HTML [Element: -]
 - Oh My Zsh installation command
+- Create necessary folder for symbolic links
 
 ### Added
 
