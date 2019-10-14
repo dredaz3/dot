@@ -35,7 +35,3 @@ fi
 ln -sf ~/.dotfiles/vscode/*.json ~/Library/Application\ Support/Code/User/
 ln -sf ~/.dotfiles/zsh/.zshrc ~/
 ln -sf ~/.dotfiles/zsh/oh-my-zsh/materialshell-electro.zsh-theme ~/.oh-my-zsh/custom/themes/
-
-# Cleanup
-rm -rf ~/.bash*
-rm -rf ~/.zcompdump*

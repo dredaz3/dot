@@ -42,6 +42,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - `cp-users` alias
 - The `gac` alias
 - Ubuntu Server support
+- Cleanup section
 
 ### Deprecated
 
