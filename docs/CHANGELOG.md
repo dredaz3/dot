@@ -24,6 +24,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Github label generator cli app
 - Global npm packages
 - Alias to rerun the last command with `sudo`
+- Tooling for VueJS Development `@vue/cli`
 
 ### Changed
 
