@@ -1,5 +1,10 @@
-# Created by https://www.gitignore.io/api/git,macos,linux,vim,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=git,macos,linux,vim,visualstudiocode
+# Created by https://www.gitignore.io/api/dotenv,git,linux,macos,vim,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=dotenv,git,linux,macos,vim,visualstudiocode
+
+################################################################################
+######################### DOTENV ###############################################
+################################################################################
+.env
 
 ################################################################################
 ######################### GIT ##################################################
@@ -105,4 +110,4 @@ tags
 ################################################################################
 # add_here
 
-# End of https://www.gitignore.io/api/git,macos,linux,vim,visualstudiocode
+# End of https://www.gitignore.io/api/dotenv,git,linux,macos,vim,visualstudiocode
