@@ -34,6 +34,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 - Rename zip as archiving and add gnu-tar
 - Optimize the scripts
 - Add 'dotenv' to global `.gitignore`
+- Add extra vim session file to global gitignore
 
 ### Removed
 
