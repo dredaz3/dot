@@ -1,6 +1,4 @@
-# ERDAL'S DOTFILES
-
-## About dotfiles (.files)
+# ERDAL'S DOTFILES (.files)
 
 Dotfiles are how you personalize your system. These are mine for macOS.
 
@@ -64,11 +62,6 @@ time.
 If you want to contribute to this project and make it better, your help is very
 welcome. See [CONTRIBUTING](docs/CONTRIBUTING.md) for more information.
 
-## Code of Conduct
-
-This project adheres to [Code of Conduct](docs/CODE_OF_CONDUCT.md). By
-participating, you are expected to uphold this code.
-
 ## Disclaimer
 
 In no event shall we be liable to you or any third parties for any special,
@@ -76,9 +69,3 @@ punitive, incidental, indirect or consequential damages of any kind, or any
 damages whatsoever, including, without limitation, those resulting from loss of
 use, data or profits, and on any theory of liability, arising out of or in
 connection with the use of this software.
-
-## Feedback
-
-Suggestions / Improvements [WELCOME]!
-
-[WELCOME]: https://github.com/erdaltsksn/dotfiles/issues

@@ -30,7 +30,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 - Use consistent naming convention for aliases
 - Rename `gll` alias to `gl`
-- Update 'erdaltsksn/blank' to v1.6.0
+- Update 'erdaltsksn/blank' to v2.0.0
 - Rename zip as archiving and add gnu-tar
 - Optimize the scripts
 - Add 'dotenv' to global `.gitignore`
