@@ -52,11 +52,6 @@ dotfilesUpdate
 You can see all alias by running `alias` and all functions by running `functions`.
 You should definitely check every subdirectory to learn more about this project.
 
-## History
-
-See [CHANGELOG](docs/CHANGELOG.md) to learn how this project evolved during the
-time.
-
 ## Contributing
 
 If you want to contribute to this project and make it better, your help is very
