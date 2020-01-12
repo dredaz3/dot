@@ -33,6 +33,7 @@ compress () {
     if [ -f $1 ]; then
         case $1 in
             *.zip)      zip -r -X $1 $2                     ;;
+            *.tar.gz)   tar -czvf $1 $2                     ;;
             *)          echo "'$1' cannot be compressed via compress()" ;;
         esac
     else
