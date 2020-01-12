@@ -9,11 +9,6 @@ cd ~/.dotfiles && git pull && cd -
 # Install homebrew, cask and app store apps
 brew bundle --file=~/.dotfiles/homebrew/Brewfile
 
-# Install Global npm packages
-for i in $(cat ~/.dotfiles/node/packages*); do
-    npm install -g $i
-done
-
 # Install Visual Studio Code Extensions
 for i in $(cat ~/.dotfiles/vscode/extensions*); do
     code --install-extension $i
