@@ -45,8 +45,6 @@ brew "vim"
 
 # Distributed revision control system
 brew "git"
-# Git extension for versioning large files
-brew "git-lfs"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 
