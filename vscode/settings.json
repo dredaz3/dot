@@ -37,5 +37,7 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "none",
     // Python
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    // Golang
+    "go.useLanguageServer": true
 }
