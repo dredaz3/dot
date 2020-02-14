@@ -14,3 +14,4 @@ ms-python.python
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
 rogalmic.bash-debug
+streetsidesoftware.code-spell-checker
