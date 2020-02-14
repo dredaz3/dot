@@ -108,8 +108,6 @@ cask "1clipboard"
 # The Unarchiver is a RAR extractor, and works with dozens of other formats
 cask "the-unarchiver"
 
-# RescueTime is a time management app that helps you understand your daily habits
-cask "rescuetime"
 # Skype is an app that specializes in providing video chat and voice calls
 cask "skype"
 # TeamViewer is an app for remote control, desktop sharing, online meetings
