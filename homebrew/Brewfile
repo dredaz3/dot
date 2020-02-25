@@ -87,6 +87,8 @@ brew "sass/sass/sass"
 brew "mariadb", restart_service: true
 # Object-relational database system
 brew "postgresql", restart_service: true
+# Persistent key-value database, with built-in net interface
+brew "redis", restart_service: true
 
 #------------------------------------------------------------------------------#
 
