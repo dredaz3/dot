@@ -122,6 +122,8 @@ cask "osxfuse"
 cask "transmit"
 # Google Chrome is a freeware web browser developed by Google
 cask "google-chrome"
+# Firefox Developer Edition is a browser made for developers by Mozilla
+cask "firefox-developer-edition"
 # Postman is the only complete API development environment for API developers
 cask "postman"
 # ImageOptim makes images load faster
