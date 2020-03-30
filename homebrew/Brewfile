@@ -138,6 +138,9 @@ mas "com.apple.iWork.Numbers", id: 409203825
 # Keynote is a presentation software application developed
 mas "com.apple.iWork.Keynote", id: 409183694
 
+# Grammarly is a digital writing tool using AI and natural language processing
+mas "Grammarly for Safari", id: 1462114288
+
 # iMovie is a video editing software application sold
 mas "com.apple.iMovieApp", id: 408981434
 
