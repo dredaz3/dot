@@ -110,8 +110,6 @@ cask "the-unarchiver"
 
 # Skype is an app that specializes in providing video chat and voice calls
 cask "skype"
-# TeamViewer is an app for remote control, desktop sharing, online meetings
-cask "teamviewer"
 # Transmission is a BitTorrent client on top of a cross-platform back-end
 cask "transmission"
 
