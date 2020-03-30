@@ -112,6 +112,8 @@ cask "the-unarchiver"
 # Transmission is a BitTorrent client on top of a cross-platform back-end
 cask "transmission"
 
+# Adobe Creative Cloud is a set of applications and services from Adobe Inc.
+cask "adobe-creative-cloud"
 # Visual Studio Code is a cross-platform source code editor
 cask "visual-studio-code"
 # TablePlus is an modern native SQL client and a database administration tool
