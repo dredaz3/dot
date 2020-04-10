@@ -26,6 +26,12 @@ git clone https://github.com/erdaltsksn/dotfiles.git ~/.dotfiles
 # Bootstrap
 curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/update.sh | bash
 
+# fix QuicklookStephen (Notarizing macOS Software Before Distribution)
+xattr -cr ~/Library/QuickLook/QLStephen.qlgenerator
+qlmanage -r
+qlmanage -r cache
+killall Finder
+
 # Install Turkish <-> English dictionaries
 cp -r ~/.dotfiles/mac/dictionary/* ~/Library/Dictionaries/
 
