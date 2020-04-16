@@ -3,7 +3,7 @@ budparr.language-hugo-vscode
 bungcip.better-toml
 CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
-eamodio.gitlens
+donjayamanne.githistory
 EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
