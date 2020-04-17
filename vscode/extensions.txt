@@ -1,17 +1,12 @@
 aaron-bond.better-comments
 budparr.language-hugo-vscode
-bungcip.better-toml
 CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 donjayamanne.githistory
-EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
-fallenwood.vimL
 formulahendry.code-runner
-mrorz.language-gettext
 ms-python.python
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
-rogalmic.bash-debug
 streetsidesoftware.code-spell-checker
