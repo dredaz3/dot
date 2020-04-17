@@ -109,9 +109,6 @@ cask "1clipboard"
 # The Unarchiver is a RAR extractor, and works with dozens of other formats
 cask "the-unarchiver"
 
-# Transmission is a BitTorrent client on top of a cross-platform back-end
-cask "transmission"
-
 # Adobe Creative Cloud is a set of applications and services from Adobe Inc.
 cask "adobe-creative-cloud"
 # Visual Studio Code is a cross-platform source code editor
