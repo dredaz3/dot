@@ -6,15 +6,14 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 
 ## Features
 
-- Material theme for all possible environments (zsh, terminal, vscode, etc.)
-- .dotsecret folder for all custom and private settings
-- .gitconfig, .gitignore, and git commit template
-- .hushlogin, Brewfile, and Turkish <> English dictionaries for Dictionary.app
-- npm packages, .vimrc, gitcommit.vim
+- Lots of `aliases`, `functions`, and etc. sorted by category for easy reference
+- Lots of useful apps for developers and power users
+- `.dotsecret` folder for custom or private settings
+- `~/bin` folder for executable files
+- Configurations for `zsh`, `git`, `vim` and etc.
 - Visual Studio Code settings, keybindings, and extensions
-- .zshrc, `$PATH` ready, topic's zsh files which contain aliases, functions and
-  etc.
-- and more coming soon
+- Material theme for all possible environments (`zsh`, `terminal`, `vscode`, etc.)
+- and many more
 
 ## Installation
 
