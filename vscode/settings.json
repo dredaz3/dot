@@ -12,8 +12,6 @@
         100,
         120
     ],
-    // Explorer
-    "explorer.confirmDelete": false,
     // Files
     "files.eol": "\n",
     "files.insertFinalNewline": true,
