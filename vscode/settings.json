@@ -27,7 +27,6 @@
     "git.autofetch": true,
     // Terminal
     "terminal.integrated.fontSize": 15,
-    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     // Theme
     "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "eq-material-theme-icons",
