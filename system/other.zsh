@@ -28,8 +28,5 @@ docs() {
     curl cheat.sh/"$@" | bat
 }
 
-# Clean DNS cache
-alias dnsFlush='dscacheutil -flushcache'
-
 # Print IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
