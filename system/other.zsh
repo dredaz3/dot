@@ -25,7 +25,7 @@ tre() {
 
 # Access online cheatsheets. Usage: docs command/subcommand
 docs() {
-    curl cheat.sh/"$@" | bat
+    curl cheat.sh/"$@"
 }
 
 # Print IP address
