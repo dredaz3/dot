@@ -2,7 +2,7 @@
 
 Dotfiles are how you personalize your system. These are mine for macOS.
 
-![Screenshot](/media/screenshot.png)
+![Screenshot](/assets/screenshot.png)
 
 ## Features
 
