@@ -33,6 +33,17 @@
     // Workbench
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "none",
+    // Code Spell Dictionary
+    "cSpell.userWords": [
+        "Erdal",
+        "Erdal's",
+        "TAŞKESEN",
+        "erdaltaskesen",
+        "erdaltsksn",
+        "dotfiles",
+        "devops",
+        "backtrace"
+    ],
     // Python
     "python.formatting.provider": "black",
     // Golang
