@@ -63,6 +63,8 @@ The following is the list of supported scopes:
 - **(devops)** e.g. git, travis, pre-commit, netlify, heroku, npm, gulp and etc.
 - **(readme)** e.g. readme, changelog, code of conduct, license and etc.
 
+**NOTE:** Every folder (topic) can be used as scope as well.
+
 ### Revert and Merge
 
 Use default GIT templates for `revert` and `merge`.
