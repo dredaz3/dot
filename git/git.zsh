@@ -35,13 +35,3 @@ alias gl="git log --decorate --all --graph --format=format:'%C(bold yellow)%h%C(
 
 # Update remote by push with all branches and tags
 alias gp="git push --all && git push --tags"
-
-# Show uncommited, untracked and unpushed changes in your Git repositories
-check-repos() {
-    curl https://raw.githubusercontent.com/fboender/multi-git-status/master/mgitstatus |
-    if [[ -z $@ ]]; then
-        sh -s "${HOME}/Projects"
-    else
-        sh -s $@
-    fi
-}
