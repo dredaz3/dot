@@ -7,7 +7,7 @@ alias brewUpdate="brew update && brew upgrade && brew cleanup"
 
 # Remove all brew packages using Brewfile as a whitelist
 brewClean() {
-    cd ~/.dotfiles/homebrew
+    cd $HOME/.dotfiles/homebrew
     if [[ -z $@ ]]; then
         brew bundle cleanup
     else

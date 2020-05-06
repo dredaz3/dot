@@ -2,7 +2,7 @@
 ZSH_DISABLE_COMPFIX=true
 
 # Path to oh-my-zsh installation
-export ZSH=~/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -30,7 +30,7 @@ export LANG='en_US.UTF-8'
 
 # Create a cache folder if it isn't exists
 if [ ! -d "$HOME/.cache/zsh" ]; then
-    mkdir -p ~/.cache/zsh
+    mkdir -p $HOME/.cache/zsh
 fi
 
 # Define a custom file for history
