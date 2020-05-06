@@ -3,4 +3,8 @@
 ################################################################################
 
 # Backup Visual Studio Code Extensions
-alias vscodeBackup="code --list-extensions > $HOME/.dotfiles/vscode/extensions.txt && cd ~/.dotfiles/vscode/ && gd"
+vscodeBackup() {
+    code --list-extensions > "$HOME/.dotfiles/vscode/extensions.txt"
+    cd "$HOME/.dotfiles/vscode/"
+    gd extensions.txt
+}
