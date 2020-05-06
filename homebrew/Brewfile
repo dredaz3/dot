@@ -108,6 +108,8 @@ cask "appcleaner"
 cask "1clipboard"
 # The Unarchiver is a RAR extractor, and works with dozens of other formats
 cask "the-unarchiver"
+# Calibre is a e-book management software.
+cask "calibre"
 
 # Adobe Creative Cloud is a set of applications and services from Adobe Inc.
 cask "adobe-creative-cloud"
