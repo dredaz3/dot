@@ -97,16 +97,3 @@ if [ ! -f "$HOME/.dotsecret/.gitconfig" ]; then
         echo "Git is configured successfully."
     fi
 fi
-
-# Configure github token
-if [ ! -f "$HOME/.dotsecret/github-token.txt" ]; then
-    read -p "Would you like to configure Github token now? (y/n) " -n 1
-    echo ""
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        echo 'You can generate your token here: https://github.com/settings/tokens/new'
-        read -p "github token: " token
-
-        echo "$token" >$HOME/.dotsecret/github-token.txt
-        echo "Github token is configured successfully."
-    fi
-fi
