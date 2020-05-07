@@ -33,14 +33,14 @@ qlmanage -r cache
 killall Finder
 
 # Install Turkish <-> English dictionaries
-cp -r ~/.dotfiles/mac/dictionary/* ~/Library/Dictionaries/
+cp -r ~/.dotfiles/macos/dictionary/* ~/Library/Dictionaries/
 
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores 1
 defaults write com.apple.desktopservices DSDontWriteUSBStores 1
 
 # Install Material Theme for Terminal.app
-open ~/.dotfiles/mac/terminal/materialshell-electro.terminal
+open ~/.dotfiles/macos/terminal/materialshell-electro.terminal
 defaults write com.apple.Terminal "Default Window Settings" materialshell-electro
 defaults write com.apple.Terminal "Startup Window Settings" materialshell-electro
 

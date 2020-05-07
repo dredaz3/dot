@@ -21,7 +21,7 @@ if [ ! -d "$HOME/.gnupg" ]; then
     mkdir -p "$HOME/.gnupg"
 fi
 ln -sf ~/.dotfiles/gnupg/* ~/.gnupg
-ln -sf ~/.dotfiles/mac/.hushlogin ~/
+ln -sf ~/.dotfiles/macos/.hushlogin ~/
 ln -sf ~/.dotfiles/node/.npmrc ~/
 ln -sf ~/.dotfiles/vim/ ~/.vim
 if [ ! -d "$HOME/Library/Application Support/Code/User/" ]; then
