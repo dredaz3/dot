@@ -15,41 +15,86 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 - Material theme for all possible environments (`zsh`, `terminal`, `vscode`, etc.)
 - and many more
 
-## Installation
-
-### Requirements
+## Requirements
 
 - macOS
+- Git
 
-### Basic Installation
+## Getting Started
 
-dotfiles is installed by running the following command in your terminal.
+`dotfiles` can be installed by running the following command **(NOT RECOMMENDED)**.
+Please use the [Installation](#installation) guide.
 
 ```sh
-curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/install.sh | bash
+curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/bootstrap.sh | bash
+```
+
+## Installation
+
+```sh
+# Check out the code into ~/.dotfiles directory
+git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles
+
+# Install Prerequisites
+$HOME/.dotfiles/scripts/preinstall
+
+# Install Homebrew apps
+brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
+
+# Install Visual Studio Code Extensions
+for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
+
+# Generate symbolic links
+$HOME/.dotfiles/scripts/symlink
+
+# Apply the application settings
+$HOME/.dotfiles/scripts/setting
+
+# Apply the fixes
+$HOME/.dotfiles/scripts/fix
+
+# Apply the input-required configurations
+$HOME/.dotfiles/scripts/configure
 ```
 
 ## Updating
 
-You can also update dotfiles manually by running one of the following commands
-in your terminal.
-
-via `curl`:
-
 ```sh
-curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/update.sh | bash
-```
+# Checkout out the repository and merge it
+cd $HOME/.dotfiles && git pull && cd -
 
-via alias:
+# The followings are OPTIONAL
+# Install Homebrew apps
+brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
-```sh
-dotfilesUpdate
+# Install Visual Studio Code Extensions
+for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
+
+# Generate symbolic links
+$HOME/.dotfiles/scripts/symlink
+
+# Apply the application settings
+$HOME/.dotfiles/scripts/setting
+
+# Apply the fixes
+$HOME/.dotfiles/scripts/fix
 ```
 
 ## Usage
 
-You can see all alias by running `alias` and all functions by running `functions`.
-You should definitely check every subdirectory to learn more about this project.
+You should definitely check every (topic) subdirectory to learn more about this
+project. The following is some of the most important command:
+
+```sh
+# Listing all aliases
+alias
+
+# Listing all functions
+functions
+
+# Listing that paths
+echo $PATH
+```
 
 ## Contributing
 
