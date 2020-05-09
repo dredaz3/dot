@@ -1,5 +1,7 @@
 # ERDAL'S DOTFILES (.files)
 
+![Dotfiles](https://github.com/erdaltsksn/dotfiles/workflows/Dotfiles/badge.svg)
+
 Dotfiles are how you personalize your system. These are mine for macOS.
 
 ![Screenshot](/assets/screenshot.png)
