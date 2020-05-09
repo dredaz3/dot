@@ -1,0 +1,46 @@
+name: Dotfiles
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macOS-latest]
+
+    steps:
+    - name: Check out the code into ~/.dotfiles directory
+      run: |
+        git clone https://github.com/$GITHUB_REPOSITORY.git $HOME/.dotfiles
+
+    - name: Install Prerequisites
+      run: |
+        $HOME/.dotfiles/scripts/preinstall
+
+    - name: Install Homebrew apps
+      run: |
+        export HOMEBREW_BUNDLE_BREW_SKIP="node"
+        export HOMEBREW_BUNDLE_MAS_SKIP="409201541 409203825 409183694 1462114288 408981434 497799835"
+        brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
+
+    - name: Install Visual Studio Code Extensions
+      run: |
+        for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
+
+    - name: Generate symbolic links
+      run: |
+        $HOME/.dotfiles/scripts/symlink
+
+    - name: Apply the application settings
+      run: |
+        $HOME/.dotfiles/scripts/setting
+
+    - name: Apply the fixes
+      run: |
+        $HOME/.dotfiles/scripts/fix
