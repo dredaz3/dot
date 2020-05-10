@@ -31,6 +31,8 @@ Please use the [Installation](#installation) guide.
 curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/bootstrap.sh | bash
 ```
 
+Check out [macOS Setting Guide](/docs/macos.md) for more configurations.
+
 ## Installation
 
 Before started to install the dotfiles (.files), it is recommended to `fork`
