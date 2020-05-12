@@ -225,7 +225,7 @@ defaults write com.apple.dock persistent-apps -array && killall Dock &> /dev/nul
 | Safari                    | Desktop 1    |
 | Terminal                  | All Desktops |
 | Visual Studio Code        | Desktop 2    |
-| Firefox Developer Edition | Desktop 2    |
+| Firefox Developer Edition | Desktop 3    |
 | Projects                  |              |
 | Downloads                 |              |
 | Trash                     |              |
