@@ -2,6 +2,9 @@
 ########################## GIT #################################################
 ################################################################################
 
+# Show the working tree status with the branch and tracking info in short-format
+alias gs="git status --short --branch"
+
 # Add file contents to the index with optional [<pathspec>…​]
 ga() {
     if [[ -z $@ ]]; then
@@ -11,9 +14,6 @@ ga() {
     fi
     gs # Show status after adding
 }
-
-# Show the working tree status with the branch and tracking info in short-format
-alias gs="git status --short --branch"
 
 #  Show changes between commits and working tree, with --cached or [<pathspec>…​]
 gd() {

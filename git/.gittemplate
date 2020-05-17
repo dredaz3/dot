@@ -26,10 +26,9 @@
 
 ############################### <FOOTER> ###############################
 # <type> must be one of the following:
-# iss : < close | reopen > #124 or PR: #123 (for Pull Requests)
+# iss : Pull request: -> #123 or Issue: -> < close | reopen > #124
 # ref : Links to commits. ref: a5c3785
 # see : Links external resources, articles or trello tickets
 #----------------------------------------------------------------------#
 # <type>: <value/values>
 # |<---    Try To Limit Each Line to a Maximum Of 72 Characters    --->|
-
