@@ -26,7 +26,7 @@
 
 ############################### <FOOTER> ###############################
 # <type> must be one of the following:
-# iss : Pull request: -> #123 or Issue: -> < close | reopen > #124
+# iss : < close | reopen > #124 or PR: #123 (for Pull Requests)
 # ref : Links to commits. ref: a5c3785
 # see : Links external resources, articles or trello tickets
 #----------------------------------------------------------------------#
