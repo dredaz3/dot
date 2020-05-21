@@ -7,12 +7,13 @@ set -e
 ln -sf $HOME/.dotfiles/bin/ $HOME/
 ln -sf $HOME/.dotfiles/git/.gitconfig $HOME/
 if [ ! -d "$HOME/.gnupg" ]; then
-    mkdir -p "$HOME/.gnupg"
+    mkdir -p "$HOME/.gnupg/"
 fi
-ln -sf $HOME/.dotfiles/gnupg/* $HOME/.gnupg
+ln -sf $HOME/.dotfiles/gnupg/* $HOME/.gnupg/
+chmod 700 $HOME/.gnupg/
 ln -sf $HOME/.dotfiles/macos/.hushlogin $HOME/
 ln -sf $HOME/.dotfiles/node/.npmrc $HOME/
-ln -sf $HOME/.dotfiles/vim/ $HOME/.vim
+ln -sf $HOME/.dotfiles/vim $HOME/.vim
 if [ ! -d "$HOME/Library/Application Support/Code/User/" ]; then
     mkdir -p "$HOME/Library/Application Support/Code/User/"
 fi

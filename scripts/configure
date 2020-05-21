@@ -26,7 +26,7 @@ if [ ! -d "$HOME/.ssh" ]; then
 fi
 
 # Generate gpg key
-if [ ! -d "$HOME/.gnupg" ]; then
+if [ ! -f "$HOME/.gnupg/trustdb.gpg" ]; then
     read -p "Would you like to generate GPG Key now? (y/n) " -n 1
     echo ""
     if [[ $REPLY =~ ^[Yy]$ ]]; then
@@ -48,7 +48,7 @@ if [ ! -f "$HOME/.dotsecret/.gitconfig" ]; then
 
         keylong=$(gpg --list-secret-keys --keyid-format LONG | grep "sec")
         signingKey=${keylong:14:16}
-        echo "[user]\n    name = $username\n    email = $useremail\n    signingKey = $signingKey" >$HOME/.dotsecret/.gitconfig
+        echo -e "[user]\n    name = $username\n    email = $useremail\n    signingKey = $signingKey" >$HOME/.dotsecret/.gitconfig
         echo "Git is configured successfully."
     fi
 fi
