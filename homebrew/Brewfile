@@ -112,6 +112,8 @@ cask "1clipboard"
 cask "the-unarchiver"
 # Calibre is a e-book management software.
 cask "calibre"
+# TeamViewer is an app for remote control, desktop sharing, online meetings
+cask "teamviewer"
 
 # Adobe Creative Cloud is a set of applications and services from Adobe Inc.
 cask "adobe-creative-cloud"
