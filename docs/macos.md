@@ -29,6 +29,21 @@ only changed areas.
 
 - Add more fingers (Add at least one finger from each hand)
 
+## System Preferences.app > Security & Privacy > Privacy
+
+- Microphone
+  - [x] TeamViewer
+- Accessibility
+  - [x] TeamViewer
+- Full Disk Access
+  - [x] TeamViewer
+- Files and Folders
+  - TeamViewer (Full Disk Access)
+  - Terminal
+    - [x] Desktop Folder
+- Screen Recording
+  - [x] TeamViewer
+
 ## System Preferences.app > Software Update
 
 - [x] Automatically keep my Mac up to date
