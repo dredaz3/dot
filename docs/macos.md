@@ -23,15 +23,11 @@ only changed areas.
 
 ## System Preferences.app > Internet Accounts
 
-- Rename and activate the accounts
+- Activate the accounts
 
 ## System Preferences.app > Touch ID
 
 - Add more fingers (Add at least one finger from each hand)
-
-## System Preferences.app > Screen Time > Content & Privacy > Stores
-
-- [x] Explicit Music, Podcasts & News
 
 ## System Preferences.app > Software Update
 
@@ -43,6 +39,7 @@ only changed areas.
 - 1.0.0.1
 - 8.8.8.8
 - 8.8.4.4
+- 192.168.1.1
 
 ## System Preferences.app > Bluetooth
 
@@ -85,25 +82,17 @@ Favorites:
 
 - [x] AirDrop
 - [x] Recents
-- [x] User Home
+- [x] Applications
 - [x] Desktop
 - [x] Downloads
-- [x] Applications
+- [x] User Home
 - [x] Projects `mkdir -p ~/Projects`
-
-iCloud:
-
-- [x] iCloud Drive
-
-Locations:
-
-- [ ] Hard disks
-- [x] All others
 
 ## Finder.app > Advanced
 
-[x] Show all filename extensions
-[x] Keep folder on top: In windows when sorting by name
+- [x] Show all filename extensions
+- [x] Keep folder on top: In windows when sorting by name
+- When performing a search: Search The Current Folder
 
 ## Safari.app > General
 
@@ -118,11 +107,6 @@ Locations:
 - [x] Show full web address
 - Default Encoding: Unicode (UTF-8)
 - [x] Show Develop menu in menu bar
-
-## Mail.app > Junk mail
-
-- [x] Enable junk mail filtering
-- When junk mail arrives: Move it to the Junk mailbox
 
 ## Mail.app > Composing
 
@@ -202,9 +186,10 @@ Drag reference sources into the order your prefer:
 
 ## Postman.app
 
+- Sign in
 - Themes: Dark theme
 
-## ImageOptim.app
+## ImageOptim.app > Optimization Speed
 
 - Optimization Level > Insane
 
@@ -225,7 +210,4 @@ defaults write com.apple.dock persistent-apps -array && killall Dock &> /dev/nul
 | Safari                    | Desktop 1    |
 | Terminal                  | All Desktops |
 | Visual Studio Code        | Desktop 2    |
-| Firefox Developer Edition | Desktop 3    |
-| Projects                  |              |
-| Downloads                 |              |
-| Trash                     |              |
+| Firefox Developer Edition | None         |
