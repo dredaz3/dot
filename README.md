@@ -39,6 +39,9 @@ Before started to install the dotfiles (.files), it is recommended to `fork`
 this repository and customize it according to you.
 
 ```sh
+# Download and install all available updates for your system
+softwareupdate -i -a
+
 # Check out the code into ~/.dotfiles directory
 # Do not forget to change it to your fork
 git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles

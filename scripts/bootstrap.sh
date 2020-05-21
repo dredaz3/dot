@@ -3,6 +3,9 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
+# Download and install all available updates for your system
+softwareupdate -i -a
+
 # Check out the code into ~/.dotfiles directory
 git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles
 
