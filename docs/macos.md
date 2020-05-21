@@ -94,6 +94,10 @@ Favorites:
 - [x] Keep folder on top: In windows when sorting by name
 - When performing a search: Search The Current Folder
 
+## Terminal.app > View
+
+- Hide Tab Bar
+
 ## Safari.app > General
 
 - [ ] Open "safe" files after downloading
