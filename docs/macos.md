@@ -169,21 +169,14 @@ Drag reference sources into the order your prefer:
 
 - [x] Enable Messages in iCloud
 
-## Calender.app > General
+## Calendar.app > General
 
 - Default Calender: Default
+- [x] Show Birthday calendar
 
-## Maps.app
+## Keynotes.app > Remote
 
-- [x] Show Labels
-- [x] Show Air Quality Index
-- [x] Show Weather Conditions
-- [x] Show Traffic
-- [x] Show 3D Map
-
-## Keynotes.app
-
-- Remote > [x] Enable
+- [x] Enable
 
 ## Voice Memos.app
 
