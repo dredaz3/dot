@@ -52,7 +52,3 @@ jobs:
     - name: Apply the application settings
       run: |
         $HOME/.dotfiles/scripts/setting
-
-    - name: Apply the fixes
-      run: |
-        $HOME/.dotfiles/scripts/fix

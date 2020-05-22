@@ -24,8 +24,5 @@ $HOME/.dotfiles/scripts/symlink
 # Apply the application settings
 $HOME/.dotfiles/scripts/setting
 
-# Apply the fixes
-$HOME/.dotfiles/scripts/fix
-
 # Apply the input-required configurations
 $HOME/.dotfiles/scripts/configure
