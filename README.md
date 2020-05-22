@@ -63,6 +63,9 @@ $HOME/.dotfiles/scripts/setting
 
 # Apply the input-required configurations
 $HOME/.dotfiles/scripts/configure
+
+# Clean up
+$HOME/.dotfiles/scripts/cleanup
 ```
 
 ## Updating
@@ -84,6 +87,8 @@ $HOME/.dotfiles/scripts/symlink
 # Apply the application settings
 $HOME/.dotfiles/scripts/setting
 
+# Clean up
+$HOME/.dotfiles/scripts/cleanup
 ```
 
 ## Usage

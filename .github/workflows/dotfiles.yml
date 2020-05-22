@@ -52,3 +52,7 @@ jobs:
     - name: Apply the application settings
       run: |
         $HOME/.dotfiles/scripts/setting
+
+    - name: Cleanup
+      run: |
+        $HOME/.dotfiles/scripts/cleanup

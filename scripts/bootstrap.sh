@@ -26,3 +26,6 @@ $HOME/.dotfiles/scripts/setting
 
 # Apply the input-required configurations
 $HOME/.dotfiles/scripts/configure
+
+# Clean up
+$HOME/.dotfiles/scripts/cleanup
