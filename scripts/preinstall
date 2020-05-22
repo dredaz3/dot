@@ -3,6 +3,9 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
+# Agree to the Xcode license
+sudo xcodebuild -license accept
+
 # Install Homebrew if it hasn't already installed
 if [[ ! "$(command -v brew)" ]]; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
