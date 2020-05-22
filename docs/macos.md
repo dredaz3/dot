@@ -191,6 +191,19 @@ Drag reference sources into the order your prefer:
 - Smart Delete **ON**
 - Updates: [x] Check updates automatically
 
+## Creative Cloud.app
+
+- Install XD
+
+## Creative Cloud.app > General
+
+- [x] Always keep Creative Cloud up to date
+
+## Creative Cloud.app > Apps
+
+- [x] Auto-update
+  - [x] XD
+
 ## Transmit.app
 
 - Enter Serial
