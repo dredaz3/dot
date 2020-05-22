@@ -151,6 +151,12 @@ Drag reference sources into the order your prefer:
 - Wikipedia (English, Türkçe)
 - Apple Dictionary
 
+## Music.app > General
+
+- [x] Sync Library (username@icloud.com)
+- [x] Automatic Downloads
+- [x] Always check for available downloads
+
 ## Music.app > Restrictions
 
 - [ ] Music with explicit content
