@@ -129,8 +129,8 @@ cask "google-chrome"
 cask "firefox-developer-edition"
 # Transmit is a file transfer client program for macOS. Developed by Panic
 cask "transmit"
-# Postman is the only complete API development environment for API developers
-cask "postman"
+# Insomnia is a Collaborative API Client and Design Platform for GraphQL / REST
+cask "insomnia"
 
 #------------------------------------------------------------------------------#
 

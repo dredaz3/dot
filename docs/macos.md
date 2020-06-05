@@ -215,10 +215,16 @@ Drag reference sources into the order your prefer:
 - [x] Show Item Count
 - [x] Show Activity Bar
 
-## Postman.app
+## Insomnia.app > General
 
-- Sign in
-- Themes: Dark theme
+- Interface Font: --System Default--
+- Interface Font Size: 15
+- Text Editor Font: Menlo
+- Text Editor Font Size: 15
+
+## Insomnia.app > Themes
+
+- Material
 
 ## ImageOptim.app > Optimization Speed
 
