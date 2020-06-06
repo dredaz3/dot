@@ -80,6 +80,9 @@ brew "hugo"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 
+# A tool to help you manage GitHub issue labels
+brew "erdaltsksn/tap/gh-label"
+
 # Stylesheet Preprocessor
 tap "dart-lang/dart"
 tap "sass/sass"
