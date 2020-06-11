@@ -1,6 +1,6 @@
 aaron-bond.better-comments
 budparr.language-hugo-vscode
-CoenraadS.bracket-pair-colorizer
+CoenraadS.bracket-pair-colorizer-2
 DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 Equinusocio.vsc-material-theme
