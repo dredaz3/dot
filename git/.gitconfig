@@ -9,5 +9,7 @@
 [commit]
     template = ~/.dotfiles/git/.gittemplate
     gpgsign = true
+[pull]
+    ff = only
 [color]
     ui = auto
