@@ -29,6 +29,10 @@ only changed areas.
 
 - Add more fingers (Add at least one finger from each hand)
 
+## System Preferences.app > Security & Privacy > General
+
+- [x] Require password **immediately** after sleep or screen saver begins
+
 ## System Preferences.app > Security & Privacy > Privacy
 
 - Microphone
