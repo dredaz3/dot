@@ -80,6 +80,8 @@ brew "hugo"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 
+# Random data generator AKA faker
+brew "erdaltsksn/tap/random"
 # A tool to help you manage GitHub issue labels
 brew "erdaltsksn/tap/gh-label"
 
