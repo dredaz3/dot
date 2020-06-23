@@ -76,5 +76,9 @@
     // Python
     "python.formatting.provider": "black",
     // Golang
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "gopls": {
+        // Add parameter placeholders when completing a function.
+        "usePlaceholders": true
+    }
 }
