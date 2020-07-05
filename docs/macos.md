@@ -248,6 +248,7 @@ defaults write com.apple.dock persistent-apps -array && killall Dock &> /dev/nul
 | Mail                      | Desktop 1    |
 | Reminder                  | Desktop 1    |
 | Notes                     | Desktop 1    |
+| WhatsApp                  | All Desktops |
 | Safari                    | Desktop 1    |
 | Terminal                  | All Desktops |
 | Visual Studio Code        | Desktop 2    |

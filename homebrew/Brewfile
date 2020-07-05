@@ -118,8 +118,10 @@ cask "appcleaner"
 cask "1clipboard"
 # The Unarchiver is a RAR extractor, and works with dozens of other formats
 cask "the-unarchiver"
-# Calibre is a e-book management software.
+# Calibre is a e-book management software
 cask "calibre"
+# WhatsApp is a simple, secure, reliable messaging and calling platform
+cask "whatsapp"
 # TeamViewer is an app for remote control, desktop sharing, online meetings
 cask "teamviewer"
 
