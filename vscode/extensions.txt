@@ -6,7 +6,7 @@ donjayamanne.githistory
 Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 formulahendry.code-runner
-golang.Go
+golang.go
 ms-python.python
 Prisma.vscode-graphql
 streetsidesoftware.code-spell-checker
