@@ -68,7 +68,7 @@ $HOME/.dotfiles/scripts/configure
 $HOME/.dotfiles/scripts/cleanup
 ```
 
-## Updating
+## Updating / Upgrading
 
 ```sh
 # Checkout out the repository and merge it
