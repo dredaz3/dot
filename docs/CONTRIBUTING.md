@@ -65,6 +65,17 @@ The following is the list of supported scopes:
 
 **NOTE:** Every folder (topic) can be used as a scope as well.
 
+#### Old / Deprecated Scopes
+
+Some of the scopes have become old/deprecated. The following is the list and
+their newer equivalents.
+
+| OLD                    | NEW                    |
+|------------------------|------------------------|
+| **(mac)**              | **(macos)**            |
+| **(nano)**             | `REMOVED`              |
+| **(script)**           | **(scripts)**          |
+
 ### Revert and Merge
 
 Use default GIT templates for `revert` and `merge`.
