@@ -72,6 +72,7 @@ only changed areas.
 ## System Preferences.app > Keyboard > Text
 
 - Remove all replacements
+- [ ] Correct spelling automatically
 - [ ] Add period with double-space
 
 ## System Preferences.app > Keyboard > Dictation
