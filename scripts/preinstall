@@ -1,24 +1,24 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status
+# Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Agree to the Xcode license
+# Agree to the Xcode license.
 sudo xcodebuild -license accept
 
-# Install Homebrew if it hasn't already installed
+# Install Homebrew if it hasn't already installed.
 if [[ ! "$(command -v brew)" ]]; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-# Install updated zsh
+# Install updated zsh.
 brew install zsh &>/dev/null
 
-# Install oh-my-zsh
+# Install oh-my-zsh.
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 fi
 
-# Install zsh-autosuggestions
+# Install zsh-autosuggestions.
 if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 fi

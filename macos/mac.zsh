@@ -2,5 +2,5 @@
 ########################## MAC #################################################
 ################################################################################
 
-# macOS folder attributes / meta-data files
+# macOS folder attributes / meta-data files.
 alias dsClean="find . -type f -name '*.DS_Store' -ls -delete"

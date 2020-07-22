@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status
+# Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Set computer name, hostname
+# Set computer name, hostname.
 read -p "Would you like to configure hostname now? (y/n) " -n 1
 echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
@@ -14,7 +14,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Computer name is set successfully."
 fi
 
-# Configure SSH
+# Configure SSH.
 if [ ! -d "$HOME/.ssh" ]; then
     read -p "Would you like to configure SSH now? (y/n) " -n 1
     echo ""
@@ -25,7 +25,7 @@ if [ ! -d "$HOME/.ssh" ]; then
     fi
 fi
 
-# Generate gpg key
+# Generate GPG key.
 if [ ! -f "$HOME/.gnupg/trustdb.gpg" ]; then
     read -p "Would you like to generate GPG Key now? (y/n) " -n 1
     echo ""
@@ -35,10 +35,10 @@ if [ ! -f "$HOME/.gnupg/trustdb.gpg" ]; then
     fi
 fi
 
-# Create a folder for secrets
+# Create a folder for secrets.
 mkdir -p $HOME/.dotsecret
 
-# Configure GIT
+# Configure GIT.
 if [ ! -f "$HOME/.dotsecret/.gitconfig" ]; then
     read -p "Would you like to configure GIT now? (y/n) " -n 1
     echo ""

@@ -101,61 +101,61 @@ brew "redis", restart_service: true
 
 #------------------------------------------------------------------------------#
 
-# Preview source code files with syntax highlighting
+# Preview source code files with syntax highlighting.
 cask "qlcolorcode"
-# Preview image size and resolution
+# Preview image size and resolution.
 cask "qlimagesize"
-# Preview Markdown files
+# Preview Markdown files.
 cask "qlmarkdown"
-# Preview plain text files without or with unknown file extension
+# Preview plain text files without or with unknown file extension.
 cask "qlstephen"
 
-# FUSE extends macOS's native file system via third-party file systems
+# FUSE extends macOS's native file system via third-party file systems.
 cask "osxfuse"
-# AppCleaner is a small application remove leftovers from uninstalled apps
+# AppCleaner is a small application remove leftovers from uninstalled apps.
 cask "appcleaner"
-# 1Clipboard is a universal clipboard managing app
+# 1Clipboard is a universal clipboard managing app.
 cask "1clipboard"
-# The Unarchiver is a RAR extractor, and works with dozens of other formats
+# The Unarchiver is a RAR extractor, and works with dozens of other formats.
 cask "the-unarchiver"
-# Calibre is a e-book management software
+# Calibre is a e-book management software.
 cask "calibre"
-# WhatsApp is a simple, secure, reliable messaging and calling platform
+# WhatsApp is a simple, secure, reliable messaging and calling platform.
 cask "whatsapp"
-# TeamViewer is an app for remote control, desktop sharing, online meetings
+# TeamViewer is an app for remote control, desktop sharing, online meetings.
 cask "teamviewer"
 
 # Adobe Creative Cloud is a set of applications and services from Adobe Inc.
 cask "adobe-creative-cloud"
-# ImageOptim makes images load faster
+# ImageOptim makes images load faster.
 cask "imageoptim"
-# Visual Studio Code is a cross-platform source code editor
+# Visual Studio Code is a cross-platform source code editor.
 cask "visual-studio-code"
-# TablePlus is an modern native SQL client and a database administration tool
+# TablePlus is an modern native SQL client and a database administration tool.
 cask "tableplus"
-# Google Chrome is a freeware web browser developed by Google
+# Google Chrome is a freeware web browser developed by Google.
 cask "google-chrome"
-# Firefox Developer Edition is a browser made for developers by Mozilla
+# Firefox Developer Edition is a browser made for developers by Mozilla.
 cask "firefox-developer-edition"
-# Transmit is a file transfer client program for macOS. Developed by Panic
+# Transmit is a file transfer client program for macOS. Developed by Panic.
 cask "transmit"
-# Insomnia is a Collaborative API Client and Design Platform for GraphQL / REST
+# Insomnia is a Collaborative API Client and Design Platform for GraphQL / REST.
 cask "insomnia"
 
 #------------------------------------------------------------------------------#
 
-# Pages is a word processor developed
+# Pages is a word processor developed Apple.
 mas "com.apple.iWork.Pages", id: 409201541
-# Numbers is a spreadsheet application developed
+# Numbers is a spreadsheet application developed Apple.
 mas "com.apple.iWork.Numbers", id: 409203825
-# Keynote is a presentation software application developed
+# Keynote is a presentation software application developed Apple.
 mas "com.apple.iWork.Keynote", id: 409183694
 
-# Grammarly is a digital writing tool using AI and natural language processing
+# Grammarly is a digital writing tool using AI and natural language processing.
 mas "Grammarly for Safari", id: 1462114288
 
-# iMovie is a video editing software application sold
+# iMovie is a video editing software application sold.
 mas "com.apple.iMovieApp", id: 408981434
 
-# Xcode is an integrated development environment for macOS developed
+# Xcode is an integrated development environment for macOS developed.
 mas "com.apple.dt.Xcode", id: 497799835

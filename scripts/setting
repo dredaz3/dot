@@ -1,21 +1,21 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status
+# Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Install Turkish <-> English dictionaries
+# Install Turkish <-> English dictionaries.
 cp -r $HOME/.dotfiles/macos/dictionary/* $HOME/Library/Dictionaries/
 
-# Avoid creating .DS_Store files on network or USB volumes
+# Avoid creating .DS_Store files on network or USB volumes.
 defaults write com.apple.desktopservices DSDontWriteNetworkStores 1
 defaults write com.apple.desktopservices DSDontWriteUSBStores 1
 
-# Install Material Theme for Terminal.app
+# Install Material Theme for `Terminal.app`.
 open $HOME/.dotfiles/macos/terminal/materialshell-electro.terminal
 defaults write com.apple.Terminal "Default Window Settings" materialshell-electro
 defaults write com.apple.Terminal "Startup Window Settings" materialshell-electro
 
-# Change default shell
+# Change default shell.
 user_name="$(id -un)"
 echo "$(which zsh)" | sudo tee -a /etc/shells
 sudo chsh -s $(which zsh) $user_name

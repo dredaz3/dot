@@ -2,7 +2,7 @@
 ########################## ARCHIVING ###########################################
 ################################################################################
 
-# Extracts archived files / mounts disk images
+# Extracts archived files / mounts disk images.
 # credit: http://nparikh.org/notes/zshrc.txt
 extract () {
     if [ -f $1 ]; then
@@ -21,20 +21,20 @@ extract () {
             *.pax.Z)    uncompress $1 --stdout | pax -r     ;;
             *.rar)      unrar x $1                          ;;
             *.Z)        uncompress $1                       ;;
-            *)          echo "'$1' cannot be extracted/mounted via extract()" ;;
+            *)          echo "'$1' cannot be extracted/mounted via extract()." ;;
         esac
     else
         echo "'$1' is not a valid file."
     fi
 }
 
-# Compress all files inside a folder
+# Compress all files inside a folder.
 compress () {
     if [ -f $1 ]; then
         case $1 in
             *.zip)      zip -r -X $1 $2                     ;;
             *.tar.gz)   tar -czvf $1 $2                     ;;
-            *)          echo "'$1' cannot be compressed via compress()" ;;
+            *)          echo "'$1' cannot be compressed via compress()." ;;
         esac
     else
         echo "'$1' is not a valid compressing format."

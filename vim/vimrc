@@ -2,11 +2,11 @@
 " This must be fist, because it changes other options as a side effect.
 set nocompatible
 
-" Disable viminfo
+" Disable viminfo.
 let skip_defaults_vim=1
 set viminfo=""
 
-" Keep 100 lines of command line history
+" Keep 100 lines of command line history.
 set history=100
 
 " In many terminal emulators the mouse works just fine, thus enable it.
@@ -14,29 +14,29 @@ if has('mouse')
   set mouse=a
 endif
 
-" Use the OS clipboard by default (on versions compiled with `+clipboard`)
+" Use the OS clipboard by default (on versions compiled with `+clipboard`).
 set clipboard=unnamed
 
-" Display imcomplete commands
+" Display imcomplete commands.
 set showcmd
 
 " Enables a menu at the bottom of the vim/gvim window.
 set wildmenu
 
-" Always shot the statusline
+" Always shot the statusline.
 set laststatus=2
 
-" Show the cursor position all the time
+" Show the cursor position all the time.
 set ruler
 
-" Show linenumbers
+" Show linenumbers.
 set number
 
-" Switch syntax highlighting on
+" Switch syntax highlighting on.
 syntax on
 
-" Enable filetype plugins
+" Enable filetype plugins.
 :filetype plugin on
 
-" Allow backspacing over everything in insert mode
+" Allow backspacing over everything in insert mode.
 set backspace=indent,eol,start

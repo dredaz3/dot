@@ -20,7 +20,6 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 ## Requirements
 
 - macOS
-- Git
 
 ## Getting Started
 
@@ -39,32 +38,32 @@ Before started to install the dotfiles (.files), it is recommended to `fork`
 this repository and customize it according to you.
 
 ```sh
-# Download and install all available updates for your system
+# Download and install all available updates for your system.
 softwareupdate -i -a
 
-# Check out the code into ~/.dotfiles directory
-# Do not forget to change it to your fork
+# Check out the code into ~/.dotfiles directory.
+# Do not forget to change it to your fork.
 git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles
 
-# Install Prerequisites
+# Install Prerequisites.
 $HOME/.dotfiles/scripts/preinstall
 
-# Install Homebrew apps
+# Install Homebrew apps.
 brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
-# Install Visual Studio Code Extensions
+# Install Visual Studio Code Extensions.
 for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
 
-# Generate symbolic links
+# Generate symbolic links.
 $HOME/.dotfiles/scripts/symlink
 
-# Apply the application settings
+# Apply the application settings.
 $HOME/.dotfiles/scripts/setting
 
-# Apply the input-required configurations
+# Apply the input-required configurations.
 $HOME/.dotfiles/scripts/configure
 
-# Clean up
+# Clean up.
 $HOME/.dotfiles/scripts/cleanup
 ```
 
@@ -74,20 +73,21 @@ $HOME/.dotfiles/scripts/cleanup
 # Checkout out the repository and merge it
 cd $HOME/.dotfiles && git pull && cd -
 
-# The followings are OPTIONAL
-# Install Homebrew apps
+# The followings are OPTIONAL.
+
+# Install Homebrew apps.
 brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
-# Install Visual Studio Code Extensions
+# Install Visual Studio Code Extensions.
 for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
 
-# Generate symbolic links
+# Generate symbolic links.
 $HOME/.dotfiles/scripts/symlink
 
-# Apply the application settings
+# Apply the application settings.
 $HOME/.dotfiles/scripts/setting
 
-# Clean up
+# Clean up.
 $HOME/.dotfiles/scripts/cleanup
 ```
 
@@ -97,13 +97,13 @@ You should definitely check every (topic) subdirectory to learn more about this
 project. The following is some of the most important command:
 
 ```sh
-# Listing all aliases
+# Listing all aliases.
 alias
 
-# Listing all functions
+# Listing all functions.
 functions
 
-# Listing that paths
+# Listing that paths.
 echo $PATH
 ```
 
