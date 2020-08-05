@@ -62,8 +62,21 @@ The following is the list of supported scopes:
 - **(*)** Multiple scopes or Unknown.
 - **(devops)** e.g. git, travis, pre-commit, netlify, heroku, npm, gulp and etc.
 - **(readme)** e.g. readme, contributing, changelog, license and etc.
-
-**NOTE:** Every folder (topic) can be used as a scope as well.
+- **(archiving)**
+- **(bin)**
+- **(git)**
+- **(gnupg)**
+- **(go)**
+- **(homebrew)**
+- **(macos)**
+- **(node)**
+- **(python)**
+- **(ruby)**
+- **(scripts)**
+- **(system)**
+- **(vim)**
+- **(vscode)**
+- **(zsh)**
 
 #### Old / Deprecated Scopes
 
@@ -72,6 +85,7 @@ their newer equivalents.
 
 | OLD                                  | NEW                                   |
 |--------------------------------------|---------------------------------------|
+| (docs)                               | **(readme)**                          |
 | (mac)                                | **(macos)**                           |
 | (nano)                               | **`REMOVED`**                         |
 | (script)                             | **(scripts)**                         |
