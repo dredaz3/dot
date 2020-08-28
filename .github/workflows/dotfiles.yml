@@ -38,7 +38,7 @@ jobs:
 
     - name: Install Homebrew apps
       run: |
-        export HOMEBREW_BUNDLE_MAS_SKIP="409201541 409203825 409183694 1462114288 408981434 497799835"
+        export HOMEBREW_BUNDLE_MAS_SKIP="409201541 409203825 409183694 1440147259 1462114288 408981434 497799835"
         brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
     - name: Install Visual Studio Code Extensions
