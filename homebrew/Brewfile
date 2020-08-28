@@ -129,6 +129,8 @@ cask "teamviewer"
 cask "adobe-creative-cloud"
 # ImageOptim makes images load faster.
 cask "imageoptim"
+# Docker is a virtualization to deliver software in packages called containers.
+cask "docker"
 # Visual Studio Code is a cross-platform source code editor.
 cask "visual-studio-code"
 # TablePlus is an modern native SQL client and a database administration tool.
