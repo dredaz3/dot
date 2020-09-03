@@ -40,8 +40,10 @@ only changed areas.
 - Accessibility
   - [x] TeamViewer
 - Full Disk Access
+  - [x] Terminal
   - [x] TeamViewer
 - Files and Folders
+  - Terminal (Full Disk Access)
   - TeamViewer (Full Disk Access)
   - Terminal
     - [x] Desktop Folder
