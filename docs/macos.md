@@ -1,10 +1,11 @@
 # macOS Setting Guide
 
-You can find more configuration and apply them manually. These section states
-only changed areas.
+You can find more configuration and apply them manually.
 
-- `>` Thie means sub-section
+`>` Thie means sub-section
+
 - [x] This means 'active'
+
 - [ ] This means 'disable'
 
 ## Top menu > Battery Icon
