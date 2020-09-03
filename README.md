@@ -1,4 +1,4 @@
-# ERDAL'S DOTFILES (.files)
+# Erdal's Dotfiles (.files)
 
 ![Dotfiles](https://github.com/erdaltsksn/dotfiles/workflows/Dotfiles/badge.svg)
 
