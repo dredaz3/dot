@@ -1,6 +1,6 @@
 # macOS Setting Guide
 
-You can find more configuration and apply them manually.
+Here you can find more configurations and apply them manually.
 
 `>` Thie means sub-section
 
