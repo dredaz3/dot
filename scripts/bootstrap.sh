@@ -13,7 +13,7 @@ git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles
 $HOME/.dotfiles/scripts/preinstall
 
 # Install Homebrew apps.
-brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
+brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
 # Install Visual Studio Code Extensions.
 for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
