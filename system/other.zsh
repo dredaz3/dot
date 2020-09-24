@@ -30,3 +30,6 @@ docs() {
 
 # Print IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+# Launch ImageOptim from CLI.
+alias imageoptim="/Applications/ImageOptim.app/Contents/MacOS/ImageOptim"
