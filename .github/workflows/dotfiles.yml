@@ -18,7 +18,7 @@ jobs:
     - name: Clean up Installed Software
       run: |
         # Remove preinstalled apps
-        brew uninstall --force node
+        brew uninstall --force node && brew unlink node@12
         brew cask uninstall --force google-chrome
         # Remove any dead symlinks
         brew cleanup --prune-prefix
