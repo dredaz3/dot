@@ -27,7 +27,7 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 Please use the [Installation](#installation) guide.
 
 ```sh
-curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/master/scripts/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/main/scripts/bootstrap.sh | bash
 ```
 
 Check out [macOS Setting Guide](/docs/macos.md) for more configurations.

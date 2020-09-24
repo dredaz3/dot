@@ -2,9 +2,9 @@ name: Dotfiles
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
         brew cask uninstall --force google-chrome
         # Remove any dead symlinks
         brew cleanup --prune-prefix
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/main/uninstall.sh)"
 
     - name: Check out the code into $HOME/.dotfiles directory
       run: |
