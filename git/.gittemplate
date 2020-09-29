@@ -2,10 +2,10 @@
 # <type> must be one of the following:
 # fix : Fix an issue e.g. bug, code typo, accident, misstatement
 # feat: < Add | Delete | Update > a feature
+# redo: Refactor e.g. a change neither fixes a bug nor adds a feature
 # test: < Add | Delete | Update > a test
 # docs: < Add | Delete | Update > documentation
 # chor: < Update | Downgrade > {pkg} , <Run> {task}
-# redo: Refactor e.g. a change neither fixes a bug nor adds a feature
 # tidy: Style e.g. indent, space, layout, text typo
 #----------------------------------------------------------------------#
 # <type>: (scope) If applied, this commit will... <subject>
@@ -27,7 +27,7 @@
 ############################### <FOOTER> ###############################
 # <type> must be one of the following:
 # iss : < close | reopen > #124 or PR: #123 (for Pull Requests)
-# ref : Links to commits. ref: a5c3785
+# ref : Links to commits. ref: a5c3785 or repo-name@a5c3785
 # see : Links external resources, articles or trello tickets
 #----------------------------------------------------------------------#
 # <type>: <value/values>
