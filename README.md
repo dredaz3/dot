@@ -4,7 +4,7 @@
 
 Dotfiles are how you personalize your system. These are mine for macOS.
 
-![Screenshot](/assets/screenshot.png)
+![Screenshot](assets/screenshot.png)
 
 ## Features
 
@@ -30,7 +30,7 @@ Please use the [Installation](#installation) guide.
 curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/main/scripts/bootstrap.sh | bash
 ```
 
-Check out [macOS Setting Guide](/docs/macos.md) for more configurations.
+Check out [macOS Setting Guide](docs/macos.md) for more configurations.
 
 ## Installation
 
