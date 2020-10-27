@@ -1,15 +1,21 @@
 # https://github.com/robbyrussell/oh-my-zsh/issues/6835#issuecomment-390216875
 ZSH_DISABLE_COMPFIX=true
 
+
 # Path to oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(zsh-autosuggestions)
+plugins=(
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="materialshell-electro"
+
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
 
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd".
 HIST_STAMPS="yyyy-mm-dd"
@@ -21,7 +27,7 @@ DISABLE_UPDATE_PROMPT=true
 export UPDATE_ZSH_DAYS=7
 
 # Set Default editor.
-export EDITOR=vim
+export EDITOR=code
 export VISUAL=$EDITOR
 
 # Set Language.

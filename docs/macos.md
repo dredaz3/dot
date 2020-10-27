@@ -55,13 +55,7 @@ Here you can find more configurations and apply them manually.
 
 - [x] Automatically keep my Mac up to date
 
-## System Preferences.app > Network > Wifi > Advanced... > DNS
 
-- 1.1.1.1
-- 1.0.0.1
-- 8.8.8.8
-- 8.8.4.4
-- 192.168.1.1
 
 ## System Preferences.app > Bluetooth
 
@@ -78,10 +72,8 @@ Here you can find more configurations and apply them manually.
 - [ ] Correct spelling automatically
 - [ ] Add period with double-space
 
-## System Preferences.app > Keyboard > Dictation
 
-- Dictation: On
-- Language > Add language => Turkey | Turkish
+
 
 ## System Preferences.app > Trackpad > Point & Click
 
@@ -91,13 +83,6 @@ Here you can find more configurations and apply them manually.
 
 - [x] Show date
 
-## Time Machine.app
-
-- Activate the Time Machine
-
-## Finder.app > General
-
-- [x] Connected Servers
 
 ## Finder.app > Sidebar
 
@@ -121,61 +106,30 @@ Favorites:
 
 - Hide Tab Bar
 
-## Safari.app > General
 
-- [ ] Open "safe" files after downloading
 
-## Safari.app > Websites > Notification
-
-- [ ] Allow websites ask for permission to send push notifications
-
-## Safari.app > Advanced
-
-- [x] Show full web address
-- Default Encoding: Unicode (UTF-8)
-- [x] Show Develop menu in menu bar
 
 ## Mail.app > Composing
 
 - Send new messages from: your_default@email.com
 
-## Photos.app > View
 
-- Show Face Names
-- Show Hidden Photo Albums
 
 ## Text Edit.app > New Document
 
 - Format: Plain text
 
-## Dictionary.app
 
-Drag reference sources into the order your prefer:
 
-- English - Türkçe
-- Türkçe - English
-- New Oxford American Dictionary ( IPA )
-- Oxford American Writer's Thesaurus
-- Wikipedia (English, Türkçe)
-- Apple Dictionary
 
-## Music.app > General
 
-- [x] Sync Library (username@icloud.com)
-- [x] Automatic Downloads
-- [x] Always check for available downloads
 
-## Music.app > Restrictions
-
-- [ ] Music with explicit content
 
 ## Contact.app
 
 - Sort By: First Name
 
-## Messages.app > iMessage
 
-- [x] Enable Messages in iCloud
 
 ## Calendar.app > General
 

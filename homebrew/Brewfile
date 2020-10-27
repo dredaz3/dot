@@ -3,7 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "erdaltsksn/tap"
+
 
 #------------------------------------------------------------------------------#
 
@@ -49,8 +49,7 @@ brew "vim"
 brew "git"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
-# Semantic Version Bumper using git tag
-brew "erdaltsksn/tap/git-bump"
+
 
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
@@ -82,10 +81,6 @@ brew "hugo"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 
-# Random data generator AKA faker
-brew "erdaltsksn/tap/random"
-# A tool to help you manage GitHub issue labels
-brew "erdaltsksn/tap/gh-label"
 
 # Stylesheet Preprocessor
 tap "dart-lang/dart"
@@ -118,27 +113,19 @@ cask "appcleaner"
 cask "1clipboard"
 # The Unarchiver is a RAR extractor, and works with dozens of other formats.
 cask "the-unarchiver"
-# Calibre is a e-book management software.
-cask "calibre"
-# WhatsApp is a simple, secure, reliable messaging and calling platform.
-cask "whatsapp"
-# TeamViewer is an app for remote control, desktop sharing, online meetings.
-cask "teamviewer"
 
 # Adobe Creative Cloud is a set of applications and services from Adobe Inc.
 cask "adobe-creative-cloud"
-# ImageOptim makes images load faster.
-cask "imageoptim"
+
 # Docker is a virtualization to deliver software in packages called containers.
 cask "docker"
 # Visual Studio Code is a cross-platform source code editor.
 cask "visual-studio-code"
-# TablePlus is an modern native SQL client and a database administration tool.
-cask "tableplus"
-# Google Chrome is a freeware web browser developed by Google.
-cask "google-chrome"
-# Firefox Developer Edition is a browser made for developers by Mozilla.
-cask "firefox-developer-edition"
+
+cask "Alfred"
+cask "Slack"
+cask "Zoom"
+
 # Transmit is a file transfer client program for macOS. Developed by Panic.
 cask "transmit"
 # Insomnia is a Collaborative API Client and Design Platform for GraphQL / REST.
@@ -146,20 +133,5 @@ cask "insomnia"
 
 #------------------------------------------------------------------------------#
 
-# Pages is a word processor developed Apple.
-mas "com.apple.iWork.Pages", id: 409201541
-# Numbers is a spreadsheet application developed Apple.
-mas "com.apple.iWork.Numbers", id: 409203825
-# Keynote is a presentation software application developed Apple.
-mas "com.apple.iWork.Keynote", id: 409183694
 
-# AdGuard for Safari brings back the high quality ad blocking back to Safari.
-mas "AdGuard for Safari", id: 1440147259
-# Grammarly is a digital writing tool using AI and natural language processing.
-mas "Grammarly for Safari", id: 1462114288
 
-# iMovie is a video editing software application sold.
-mas "com.apple.iMovieApp", id: 408981434
-
-# Xcode is an integrated development environment for macOS developed.
-mas "com.apple.dt.Xcode", id: 497799835
